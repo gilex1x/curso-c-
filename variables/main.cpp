@@ -14,7 +14,9 @@ int main() {
     */
 
     int edad = 25;
+    const char letra = 'A';// No se modifica
     cout << "Hola, mundo!" << endl;
     cout << "Mi edad es: " << edad << endl;
+    cout << "La letra es: " << letra << endl;
     return 0;
 }
